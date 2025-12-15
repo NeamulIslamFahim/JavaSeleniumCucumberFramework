@@ -17,10 +17,6 @@ public class BaseTest {
         driver.manage().window().maximize();
     }
 
-    public WebDriver getDriver() {
-        return driver;
-    }
-
     @After
     public void tearDown() {
         if (driver != null) {

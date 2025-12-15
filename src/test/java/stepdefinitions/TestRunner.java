@@ -1,3 +1,5 @@
+package stepdefinitions;
+
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -9,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
               "json:target/cucumber-reports/CucumberTestReport.json",
               "rerun:target/cucumber-reports/rerun.txt"},
     monochrome = true,
-    publish = true
+    publish = true,
+    glue = {"BaseTest", "stepdefinitions"}
 )
 public class TestRunner {
 
