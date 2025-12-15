@@ -1,3 +1,5 @@
+package stepdefinitions;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
@@ -5,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import BaseTest.BaseTest;
 
 public class GoogleSearchSteps {
 

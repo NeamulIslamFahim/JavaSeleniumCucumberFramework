@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: stepdefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.656 s <<< FAILURE! -- in stepdefinitions.TestRunner
+Google Search Functionality.Verify Google Search is working -- Time elapsed: 0.141 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at stepdefinitions.GoogleSearchSteps.i_am_on_the_google_homepage(GoogleSearchSteps.java:22)
+	at ✽.I am on the Google homepage(file:///C:/Users/FAHIM/.cursor/projects/JavaSeleniumCucumberFramework/src/test/resources/features/google_search.feature:4)
+
