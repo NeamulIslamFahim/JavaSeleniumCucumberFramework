@@ -19,6 +19,7 @@ public class BaseTest {
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--window-size=1920,1080");
+        System.out.println("ChromeOptions arguments: " + options.asMap().get("goog:chromeOptions"));
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
     }
